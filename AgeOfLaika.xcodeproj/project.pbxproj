@@ -12,6 +12,7 @@
 		3F8885A71BD51E3300335419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8885A51BD51E3300335419 /* Main.storyboard */; };
 		3F8885A91BD51E3300335419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8885A81BD51E3300335419 /* Assets.xcassets */; };
 		3F8885AC1BD51E3300335419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8885AA1BD51E3300335419 /* LaunchScreen.storyboard */; };
+		3F8885B51BD51E7A00335419 /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8885B41BD51E7A00335419 /* AgeOfLaika.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3F8885A81BD51E3300335419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F8885AB1BD51E3300335419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F8885AD1BD51E3300335419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8885B41BD51E7A00335419 /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfLaika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		3F8885A01BD51E3300335419 /* AgeOfLaika */ = {
 			isa = PBXGroup;
 			children = (
+				3F8885B31BD51E4100335419 /* Supporting Files */,
 				3F8885A11BD51E3300335419 /* AppDelegate.swift */,
 				3F8885A31BD51E3300335419 /* ViewController.swift */,
 				3F8885A51BD51E3300335419 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				3F8885AD1BD51E3300335419 /* Info.plist */,
 			);
 			path = AgeOfLaika;
+			sourceTree = "<group>";
+		};
+		3F8885B31BD51E4100335419 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F8885B41BD51E7A00335419 /* AgeOfLaika.jpg */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F8885AC1BD51E3300335419 /* LaunchScreen.storyboard in Resources */,
+				3F8885B51BD51E7A00335419 /* AgeOfLaika.jpg in Resources */,
 				3F8885A91BD51E3300335419 /* Assets.xcassets in Resources */,
 				3F8885A71BD51E3300335419 /* Main.storyboard in Resources */,
 			);
