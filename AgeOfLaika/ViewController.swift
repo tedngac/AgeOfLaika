@@ -31,15 +31,15 @@ class ViewController: UIViewController {
         let humanYears = Double(ageInHumanYearsTxtFld.text!)
         var inDogYears : Double
         
-        if (humanYears == nil) {
+        if humanYears == nil {
             warningLbl.hidden = false
             warningLbl.text = "Please enter the age ..."
         } else {
             warningLbl.hidden = true
             
-            if (humanYears == 1) {
+            if humanYears == 1 {
                 inDogYears = 10.5
-            } else if (humanYears == 2) {
+            } else if humanYears == 2 {
                 inDogYears = 21
             } else {
                 inDogYears = 21 + (humanYears! - 2) * dogYears
@@ -54,7 +54,6 @@ class ViewController: UIViewController {
             humanYearsLbl.text = "\(humanYears!)"
             dogYearsLbl.text = "\(inDogYears)"
         }
-        
         
     }
 
