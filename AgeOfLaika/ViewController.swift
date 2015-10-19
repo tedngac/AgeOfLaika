@@ -27,22 +27,19 @@ class ViewController: UIViewController {
     }
 
     @IBAction func convertBtnPressed(sender: UIButton) {
-        let dogYears : Double = 4
         let humanYears = Double(ageInHumanYearsTxtFld.text!)
         var inDogYears : Double
         
-        if humanYears == nil {
+        if (humanYears == nil) {
             warningLbl.hidden = false
             warningLbl.text = "Please enter the age ..."
         } else {
             warningLbl.hidden = true
             
-            if humanYears == 1 {
-                inDogYears = 10.5
-            } else if humanYears == 2 {
-                inDogYears = 21
+            if humanYears <= 2 {
+                inDogYears = humanYears! * 10.5
             } else {
-                inDogYears = 21 + (humanYears! - 2) * dogYears
+                inDogYears = 21 + (humanYears! - 2) * 4
             }
             
             ageInHumanYearsTxtFld.resignFirstResponder()
